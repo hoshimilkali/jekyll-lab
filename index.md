@@ -12,8 +12,8 @@ title: 実験トップ
 | スピーカー | 1 |
 
 
-サイト名: {{ site.title }} / 作者: {{ site.author }}
-サイト名: {{ site.title }} / 作者: {{ site.author }}
-タイトル: {{ page.title }}
-日時: {{ site.time | date: "%Y/%m/%d %H:%M" }}
+- サイト名: {{ site.title }} / 作者: {{ site.author }}
+- タイトル: {{ page.title }}
+- 日時: {{ site.time | date: "%Y/%m/%d %H:%M" }}
+
 
