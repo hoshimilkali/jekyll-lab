@@ -1,5 +1,7 @@
 ---
 title: 実験トップ
+val1:
+  val2: MyVal2
 ---
 
 # Jekyll 実験
@@ -15,5 +17,6 @@ title: 実験トップ
 - サイト名: {{ site.title }} / 作者: {{ site.author }}
 - タイトル: {{ page.title }}
 - 日時: {{ site.time | date: "%Y/%m/%d %H:%M" }}
+- val: {{ page.val1.val2 }}
 
 
